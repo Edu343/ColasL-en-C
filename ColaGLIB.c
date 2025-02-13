@@ -4,7 +4,7 @@
 int main(void) {
     GQueue *cola = g_queue_new(); // Crea una nueva cola
 
-    // Encola elementos
+    // Añade elementos
     g_queue_push_tail(cola, GINT_TO_POINTER(10)); 
     g_queue_push_tail(cola, GINT_TO_POINTER(20));
     g_queue_push_tail(cola, GINT_TO_POINTER(30));

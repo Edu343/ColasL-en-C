@@ -42,7 +42,7 @@ int dequeue(Cola *c) {
     int valor = GPOINTER_TO_INT(c->inicio->data);
     GSList *temp = c->inicio;  
 
-    c->inicio = g_slist_remove(c->inicio, temp->data);  // Usa g_slist_remove()
+    c->inicio = g_slist_remove(c->inicio, temp->data);  
 
     if (c->inicio == NULL) {
         c->final = NULL;
